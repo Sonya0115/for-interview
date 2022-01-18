@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <style>
+    body{
+      background-color: rgb(247,246,251);
+    }
+    .mainTitle{
+      display: flex;
+      border-bottom: 3px solid rgb(247,246,251);
+      padding: 5px;
+      background-color: #fff;
+    }
+    .info{
+      display: flex;
+    }
+    .back{
+      background-color: transparent;
+      border: none;
+      font-size: 30px;
+      cursor: pointer;
+    }
+    .account{
+      margin: auto;
+      font-weight: bold;
+      font-size:30px;
+    }
+    .account-dec{
+      display: flex;
+      justify-content: space-between;
+      background-color: #fff;
+      padding: 42px 0px 40px 0px;
+      margin-bottom: 30px;
+    }
+    .payment{
+      width: 30px;
+      margin: 2px 28px 0px 30px;
+      cursor: pointer;
+    }
+    .firstchoice{
+      margin: 40px 30px 0px 0px;
+      font-size: 20px;
+      color:rgb(255, 255, 255);
+      background-color: rgb(51,51,51);
+      border-radius: 4px;
+      padding: 5px 10px;
+    }
+    .edit{
+      background-color: transparent;
+      border: none;
+      width: 30px;
+      height: 27px;
+      margin: 46px 30px 0px 0px;
+      cursor: pointer;
+    }
+    .fas{
+      font-size: 28px;
+    }
+    .bank-name{
+      font-size: 28px;
+      color: rgb(170, 170, 170);
+    }
+    .user{
+      margin-top: 28px;
+      font-size: 28px;
+      color:rgb(51,51,51);
+    }
+    .account-no{
+      font-size: 28px;
+      color:rgb(51,51,51);
+    }
+  </style>
+</head>
+<body>
+  <header class="mainTitle">
+    <button class="back">
+      <i class="fas fa-chevron-left"></i>
+    </button>
+    <h1 class="account">收款帳戶</h1>
+  </header>
+  <div>
+    <form action="#">
+      <div class="account-dec">
+        <div class="info">
+          <input type="radio" name="bank" class="payment">
+          <div class="user-info">
+            <div class="bank-name"><span class="firstchoice">默認</span>中國郵政銀行XX支行</div>
+            <div class="user">阿狸</div>
+            <div class="account-no">6217 8888 8888 9997 789</div>
+          </div>
+        </div>
+        <button class="edit"><i class="fas fa-edit"></i></button>
+      </div>
+      <div class="account-dec">
+        <div class="info">
+          <input type="radio" name="bank" class="payment">
+          <div class="user-info">
+            <div class="bank-name">中國郵政銀行XX支行</div>
+            <div class="user">阿狸</div>
+            <div class="account-no">6217 8888 8888 9997 789</div>
+          </div>
+        </div>
+        <button class="edit"><i class="fas fa-edit"></i></button>
+      </div>
+      <div class="account-dec">
+        <div class="info">
+          <input type="radio" name="bank" class="payment">
+          <div class="user-info">
+            <div class="bank-name">中國郵政銀行XX支行</div>
+            <div class="user">阿狸</div>
+            <div class="account-no">6217 8888 8888 9997 789</div>
+          </div>
+        </div>
+        <button class="edit"><i class="fas fa-edit"></i></button>
+      </div>
+      <div class="account-dec">
+        <div class="info">
+          <input type="radio" name="bank" class="payment">
+          <div class="user-info">
+            <div class="bank-name">中國郵政銀行XX支行</div>
+            <div class="user">阿狸</div>
+            <div class="account-no">6217 8888 8888 9997 789</div>
+          </div>
+        </div>
+        <button class="edit"><i class="fas fa-edit"></i></button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
